@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Css Start  */
+.navbar-brand {
+    position: relative;
+    height: 50px;
+    left: calc(50% - 30px);
+    top: 8px;
+}
+
+.navbar-background {
+    background-color: #D1058A;
+}
+
+#logo_image {
+    height: 70px;
+    width: 70px;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background-color: #F3A61D;
+    color: black;
+}
+
+/* Navigation Css End Here  */
+
+/* Slider Css Start from here  */
+
+.carousel-inner img {
+    width: 100%;
+    height: 94vh;
+    padding-top: 26px;
+}
+
+/* slider css end here  */
+
+
+/*  Book item css start from here */
+.subject-cover-image {
+    width: 110%;
+    transition: 2s;
+}
+
+.subject-cover-image:hover {
+    width: 125%;
+
+}
+
+/* Book item end here */
+
+
+/* Footer Section start from here  */
+
+.copyright {
+    background-color: gray;
+}
+
+.copyright_text {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    color: ghostwhite;
+}
+
+/*  Footer section end here  */
+
+
+/* second page - bangla sikhi id / section start from here */
+
+.subject-cover-image-soroborno,
+.subject-cover-image-banjonborno,
+.subject-cover-image-capital-letter,
+.subject-cover-image-small-letter,
+.subject-cover-image-bangla-number,
+.subject-cover-image-english-number {
+    width: 100%;
+    transition: 2s;
+
+}
+
+.subject-cover-image-soroborno:hover,
+.subject-cover-image-banjonborno:hover {
+    width: 115%;
+}
+
+.subject-cover-image-capital-letter:hover,
+.subject-cover-image-small-letter:hover,
+.subject-cover-image-bangla-number:hover,
+.subject-cover-image-english-number:hover {
+    width: 110%;
+}
+
+
+.content-wrapper-gkimage-main>img,
+.content-wrapper-islamimage-main>img,
+.content-wrapper-sorobotnoimage-main>img,
+.content-wrapper-banjonbornoimage-main>img,
+.content-wrapper-capitalletterimage-main>img,
+.content-wrapper-smallletterimage-main>img,
+.content-wrapper-englishnumber-image-main>img,
+.content-wrapper-banglanumberimage-main>img {
+    width: 100%;
+    margin: 20px 20px;
+}
+
+
+#gk-main-image1,
+#gk-main-image2,
+#gk-main-image3,
+#gk-main-image4,
+
+#islam-main-image1,
+#islam-main-image2,
+#islam-main-image3,
+#islam-main-image4,
+
+#soroborno-main-image1,
+#soroborno-main-image2,
+#soroborno-main-image3,
+#soroborno-main-image4,
+
+#banjonborno-main-image1,
+#banjonborno-main-image2,
+#banjonborno-main-image3,
+#banjonborno-main-image4,
+
+
+#capitalletter-main-image1,
+#capitalletter-main-image2,
+#capitalletter-main-image3,
+#capitalletter-main-image4,
+
+
+#smallletter-main-image1,
+#smallletter-main-image2,
+#smallletter-main-image3,
+#smallletter-main-image4,
+
+
+#banglanumber-main-image1,
+#banglanumber-main-image2,
+#banglanumber-main-image3,
+#banglanumber-main-image4,
+
+#englishnumber-main-image1,
+#englishnumber-main-image2,
+#englishnumber-main-image3,
+#englishnumber-main-image4 {
+    display: none;
+}
+
+.menu-image-gk-page1,
+.menu-image-gk-page2,
+.menu-image-gk-page3,
+.menu-image-gk-page4,
+.menu-image-islam-page1,
+.menu-image-islam-page2,
+.menu-image-islam-page3,
+.menu-image-islam-page4 {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 20px;
+    transition: 2s;
+    border: 5px solid rgb(221, 70, 96);
+    border-radius: 20%;
+}
+
+/* soroborno menu text style */
+.menu-text-soroborno-page1,
+.menu-text-soroborno-page2,
+.menu-text-soroborno-page3,
+.menu-text-soroborno-page4,
+/* banjonborno menu text style */
+.menu-text-banjonborno-page1,
+.menu-text-banjonborno-page2,
+.menu-text-banjonborno-page3,
+.menu-text-banjonborno-page4,
+
+/* english cappital letter  */
+.menu-text-capitalletter-page1,
+.menu-text-capitalletter-page2,
+.menu-text-capitalletter-page3,
+.menu-text-capitalletter-page4,
+/* english small letter  */
+
+.menu-text-smallletter-page1,
+.menu-text-smallletter-page2,
+.menu-text-smallletter-page3,
+.menu-text-smallletter-page4,
+
+.menu-text-banglanumber-page1,
+.menu-text-banglanumber-page2,
+.menu-text-banglanumber-page3,
+.menu-text-banglanumber-page4,
+
+.menu-text-englishnumber-page1,
+.menu-text-englishnumber-page2,
+.menu-text-englishnumber-page3,
+.menu-text-englishnumber-page4 {
+    text-align: center;
+    font-size: 100px;
+    transition: 2s;
+    color: black;
+    background-color: rgb(231, 194, 194);
+    border: 5px solid rgb(221, 70, 96);
+    border-radius: 20%;
+
+}
+
+.menu-text-soroborno-page1:hover,
+.menu-text-soroborno-page2:hover,
+.menu-text-soroborno-page3:hover,
+.menu-text-soroborno-page4:hover,
+
+.menu-text-banjonborno-page1:hover,
+.menu-text-banjonborno-page2:hover,
+.menu-text-banjonborno-page3:hover,
+.menu-text-banjonborno-page4:hover,
+
+/* english cappital letter  */
+.menu-text-capitalletter-page1:hover,
+.menu-text-capitalletter-page2:hover,
+.menu-text-capitalletter-page3:hover,
+.menu-text-capitalletter-page4:hover,
+/* english small letter  */
+
+.menu-text-smallletter-page1:hover,
+.menu-text-smallletter-page2:hover,
+.menu-text-smallletter-page3:hover,
+.menu-text-smallletter-page4:hover {
+    width: 110%;
+    transition: 2s;
+}
+
+
+.menu-image-gk-page1:hover,
+.menu-image-gk-page2:hover,
+.menu-image-gk-page3:hover,
+.menu-image-gk-page4:hover,
+.menu-image-islam-page1:hover,
+.menu-image-islam-page2:hover,
+.menu-image-islam-page3:hover,
+.menu-image-islam-page4:hover {
+    width: 110%;
+}
+
+
+#bangla-sikkha,
+#english-sikkha,
+#math-sikkha,
+#general-knowledge,
+#islam-shikkha,
+#soroborno-shikkha,
+#banjonborno-shikkha,
+#capital-letter-shikkha,
+#small-letter-shikkha,
+#bangla-number-shikkha,
+#english-number-shikkha {
+    display: none;
+}
